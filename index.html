@@ -6,11 +6,34 @@
   <meta description="Dog Dumpling">
   <meta property="og:description" content="Dog Dumpling">
   <meta twitter:description content="Dog Dumpling">
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+  
 </head>
 
 <body>
   <h1>Dog Dumpling</h1>
   <a href="https://www.seriouseats.com/recipes/2011/06/dumplings-favorite-chow.html"><img src="img/20110609-goodbye-dumpling-51.jpg" alt="Dog Dupling"><br />
   Web Article: From Seriouseats.com</a>
+  
+  <a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet">
+Tweet</a>
+
 </body>
 </html>
